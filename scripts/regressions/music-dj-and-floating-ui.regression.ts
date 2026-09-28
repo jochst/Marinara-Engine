@@ -83,7 +83,7 @@ assert.match(
 );
 assert.match(
   globalsSource,
-  /@media \(max-width: 639px\) \{[\s\S]*?\.mari-topbar-action \{[\s\S]*?flex: 0 0 1\.5rem;[\s\S]*?height: 1\.5rem !important;[\s\S]*?width: 1\.5rem !important;/u,
+  /@media \(max-width: 639px\) \{[\s\S]*?\.mari-topbar-action \{[\s\S]*?flex: 0 0 2\.75rem;[\s\S]*?height: 2\.75rem !important;[\s\S]*?width: 2\.75rem !important;/u,
   "Phone top-bar controls must keep fixed widths instead of filling the row",
 );
 

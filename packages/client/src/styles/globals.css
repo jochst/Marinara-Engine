@@ -6559,9 +6559,9 @@ strong {
 
 @media (max-width: 639px) {
   .mari-topbar-action {
-    flex: 0 0 1.5rem;
-    height: 1.5rem !important;
-    width: 1.5rem !important;
+    flex: 0 0 2.75rem;
+    height: 2.75rem !important;
+    width: 2.75rem !important;
     padding: 0 !important;
   }
 }
