@@ -75,5 +75,16 @@ assert.match(
   /mari-topbar-chat-gradient-underline/u,
   "The active Chats underline must retain its gradient",
 );
+assert.match(topBarSource, /<Menu size=\{15\}/u, "The mobile overflow control must use a menu icon");
+assert.match(
+  topBarSource,
+  /"ml-auto sm:hidden"/u,
+  "The mobile overflow control must stay at the right edge",
+);
+assert.match(
+  globalsSource,
+  /@media \(max-width: 639px\) \{[\s\S]*?\.mari-topbar-action \{[\s\S]*?flex: 0 0 2\.25rem;/u,
+  "Phone top-bar controls must keep fixed widths instead of filling the row",
+);
 
 console.info("Music DJ availability and floating UI regressions passed.");

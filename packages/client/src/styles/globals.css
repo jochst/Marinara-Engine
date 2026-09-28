@@ -6557,6 +6557,14 @@ strong {
   }
 }
 
+@media (max-width: 639px) {
+  .mari-topbar-action {
+    flex: 0 0 2.25rem;
+    width: 2.25rem !important;
+    padding: 0 !important;
+  }
+}
+
 @media (pointer: coarse) {
   ::-webkit-scrollbar {
     width: 0.25rem;
