@@ -6561,8 +6561,20 @@ strong {
   .mari-topbar-action {
     flex: 0 0 2.75rem;
     height: 2.75rem !important;
+    min-height: 2.75rem !important;
+    min-width: 2.75rem !important;
     width: 2.75rem !important;
     padding: 0 !important;
+  }
+
+  .mari-topbar-action > svg {
+    width: 1.125rem;
+    height: 1.125rem;
+  }
+
+  .mari-topbar-action[data-topbar-hover-key="home"] > svg {
+    width: 1.25rem;
+    height: 1.25rem;
   }
 }
 
