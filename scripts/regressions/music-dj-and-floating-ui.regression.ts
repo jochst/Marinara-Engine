@@ -83,12 +83,12 @@ assert.match(
 );
 assert.match(
   globalsSource,
-  /@media \(max-width: 639px\) \{[\s\S]*?\.mari-topbar-action \{[\s\S]*?flex: 0 0 2\.75rem;[\s\S]*?height: 2\.75rem !important;[\s\S]*?min-height: 2\.75rem !important;[\s\S]*?min-width: 2\.75rem !important;[\s\S]*?width: 2\.75rem !important;/u,
+  /@media \(max-width: 639px\) \{[\s\S]*?\.mari-topbar-action \{[\s\S]*?flex: 0 0 5\.5rem;[\s\S]*?height: 2\.75rem !important;[\s\S]*?min-height: 2\.75rem !important;[\s\S]*?min-width: 5\.5rem !important;[\s\S]*?width: 5\.5rem !important;/u,
   "Phone top-bar controls must keep fixed widths instead of filling the row",
 );
 assert.match(
   globalsSource,
-  /@media \(max-width: 639px\) \{[\s\S]*?\.mari-topbar-action > svg \{[\s\S]*?width: 1\.125rem;/u,
+  /@media \(max-width: 639px\) \{[\s\S]*?\.mari-topbar-action > svg \{[\s\S]*?width: 1\.0625rem;/u,
   "Phone top-bar icons must remain visually legible inside the touch targets",
 );
 
