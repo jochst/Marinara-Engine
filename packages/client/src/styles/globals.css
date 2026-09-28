@@ -6567,6 +6567,30 @@ strong {
     padding: 0 !important;
   }
 
+  .mari-topbar-action[aria-pressed="true"],
+  .mari-topbar-action[aria-expanded="true"] {
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+
+  .mari-topbar-action[aria-pressed="true"]::before,
+  .mari-topbar-action[aria-expanded="true"]::before {
+    position: absolute;
+    inset: 50% auto auto 50%;
+    width: 2.25rem;
+    height: 2.25rem;
+    border-radius: 0.5rem;
+    background: var(--accent);
+    content: "";
+    transform: translate(-50%, -50%);
+  }
+
+  .mari-topbar-action > svg,
+  .mari-topbar-action > span {
+    position: relative;
+    z-index: 1;
+  }
+
   .mari-topbar-action > svg {
     width: 1.0625rem;
     height: 1.0625rem;

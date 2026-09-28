@@ -91,5 +91,10 @@ assert.match(
   /@media \(max-width: 639px\) \{[\s\S]*?\.mari-topbar-action > svg \{[\s\S]*?width: 1\.0625rem;/u,
   "Phone top-bar icons must remain visually legible inside the touch targets",
 );
+assert.match(
+  globalsSource,
+  /\.mari-topbar-action\[aria-pressed="true"\]::before[\s\S]*?width: 2\.25rem;/u,
+  "Phone active top-bar controls must use a compact visual background",
+);
 
 console.info("Music DJ availability and floating UI regressions passed.");

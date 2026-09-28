@@ -4,7 +4,7 @@ This file is the release-notes source of truth for Marinara Engine. Reuse these 
 
 ## [Unreleased]
 
-- On phones, the Home and Chats controls stay at the left edge of the top bar, while a hamburger menu stays at the right edge with proper finger-sized touch targets.
+- On phones, the Home and Chats controls stay at the left edge of the top bar, while a hamburger menu stays at the right edge with proper finger-sized touch targets and compact active highlights.
 
 - Guided regeneration clears the direction it consumes from the chat composer and restores it after a failed attempt without replacing a newer draft (#6815).
 
