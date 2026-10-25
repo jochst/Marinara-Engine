@@ -4528,6 +4528,7 @@ function PersonaCardTab({
   const wandFor = (field: CardFieldKey) => (
     <CardFieldWand
       label={generation.labels[field]}
+      value={card[field]}
       onGenerate={() => void generation.generate(field)}
       disabled={!personaId || generation.isPending}
       loading={generation.pendingField === field}

@@ -25,6 +25,7 @@ export function CharacterGreetingWand({
   return (
     <CardFieldWand
       label={label}
+      value={value}
       onGenerate={() => void generation.generate("first_mes")}
       disabled={!entityId || generation.isPending}
       loading={generation.isPending}
