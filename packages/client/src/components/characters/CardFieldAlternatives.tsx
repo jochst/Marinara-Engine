@@ -162,6 +162,7 @@ function AlternativeField({
         <div className="flex shrink-0 items-center gap-1">
           <CardFieldWand
             label={title}
+            value={alternative.value}
             onGenerate={() => void generation.generate(props.field)}
             disabled={!props.entityId || generation.isPending}
             loading={generation.isPending}

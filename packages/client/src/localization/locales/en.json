@@ -6552,6 +6552,8 @@
   "ui.cardFields.generate": "Generate {{field}}",
   "ui.cardFields.generated": "Generated {{field}}",
   "ui.cardFields.generateTooltip": "Generate {{field}} in 100–300 words using this field as a starting point and the other card fields as reference. Uses the same connection as summary generation.",
+  "ui.cardFields.improve": "Improve {{field}}",
+  "ui.cardFields.improveTooltip": "Improve {{field}} into 100–300 words, keeping what is already written and using the other card fields as reference. Uses the same connection as summary generation.",
   "ui.cardFields.personaCardHelp": "Write the description, personality, backstory, appearance, scenario, and example dialogue that define your persona for the model. Summary stays library metadata. Each wand expands the selected section using your current card as reference.",
   "ui.cardFields.personaDialogueHelp": "Example exchanges that demonstrate your persona’s voice and speaking style.",
   "ui.cardFields.personaDialoguePlaceholder": "Write a few example exchanges that show how your persona speaks.",
